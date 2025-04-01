@@ -5,6 +5,17 @@ import java.util.List;
 public class UserDTO {
     private Long id;
     private String username;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password; // Added password field
+
     private List<OrderDTO> orders;
     private List<CartDTO> carts;
 
