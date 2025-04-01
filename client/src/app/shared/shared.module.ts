@@ -14,6 +14,11 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    OrderCardComponent,
+    ProductCardComponent,
+    LoadingSpinnerComponent
   ]
 })
 export class SharedModule { }
